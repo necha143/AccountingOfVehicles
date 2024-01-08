@@ -1,5 +1,6 @@
 package necha.AccountingOfVehicles.controllers;
 
+import io.swagger.v3.oas.annotations.tags.Tag;
 import necha.AccountingOfVehicles.models.VidTc;
 import necha.AccountingOfVehicles.services.VidTcService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,6 +13,7 @@ import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("/vidtc")
+@Tag(name = "vid_tc_controller_methods")
 public class VidTcController {
     private final VidTcService service;
 

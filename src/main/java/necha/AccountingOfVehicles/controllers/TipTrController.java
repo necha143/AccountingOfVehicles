@@ -1,5 +1,6 @@
 package necha.AccountingOfVehicles.controllers;
 
+import io.swagger.v3.oas.annotations.tags.Tag;
 import necha.AccountingOfVehicles.models.TipTr;
 import necha.AccountingOfVehicles.services.TipTrService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,6 +14,7 @@ import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("/tips")
+@Tag(name = "tip_tr_controller_methods")
 public class TipTrController {
     private final TipTrService service;
 

@@ -1,5 +1,6 @@
 package necha.AccountingOfVehicles.controllers;
 
+import io.swagger.v3.oas.annotations.tags.Tag;
 import necha.AccountingOfVehicles.models.VFirm;
 import necha.AccountingOfVehicles.services.VFirmService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,6 +14,7 @@ import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("/vfirms")
+@Tag(name = "vfrim_controller_methods")
 public class VFirmController {
     private final VFirmService service;
 
