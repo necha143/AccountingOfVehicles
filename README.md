@@ -3,6 +3,7 @@
 ## Оглавление
 * [Главная задача](#главная-задача)
 * [Запросы приложения](#http-запросы)
+* [Swagger-UI](#swagger-ui)
 * [Используемые технологии](#используемые-технологии)
 
 ## Главная задача
@@ -20,6 +21,11 @@
 
 </br>
 
+## Swagger-UI
+<img width="1512" alt="3" src="https://github.com/necha143/AccountingOfVehicles/assets/113212609/2913c970-7f04-42ec-aae9-d5f0a3cb94f6">
+</br>
+
+
 ## Используемые технологии 
 * Java (JDK 20)
 * Spring Framework
@@ -27,6 +33,7 @@
 * Spring Boot
 * Spring Data JPA
 * Spring REST API
+* Swagger-UI
 * Maven
 * ModelMapper
 * PostgreSQL
