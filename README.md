@@ -25,6 +25,15 @@
 <img width="1512" alt="3" src="https://github.com/necha143/AccountingOfVehicles/assets/113212609/2913c970-7f04-42ec-aae9-d5f0a3cb94f6">
 </br>
 
+## Docker
+__Демонстрация запроса к рабочему контейнеру__
+<img width="1512" alt="docker" src="https://github.com/necha143/AccountingOfVehicles/assets/113212609/2b1f9600-3ea4-4f92-8d6b-c452f4126eb3">
+</br>
+* __[Dockerfile](https://github.com/necha143/AccountingOfVehicles/blob/main/docker/Dockerfile)__
+* __[Docker-compose](https://github.com/necha143/AccountingOfVehicles/blob/main/docker/docker-compose.yml)__
+
+</br>
+
 
 ## Используемые технологии 
 * Java (JDK 20)
